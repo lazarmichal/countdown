@@ -7,6 +7,7 @@ def countdown(user_time):
         print(timer, end='\r')
         time.sleep(1)
         user_time -= 1
+        print(timer)
     print('Lift off!')
 
 
